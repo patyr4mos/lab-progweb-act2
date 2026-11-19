@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 560" role="img" aria-labelledby="t d">
+  <title id="t">Invitación digital de XV años en un teléfono</title>
+  <desc id="d">Teléfono mostrando una invitación rosa con el nombre Sofía, una cuenta regresiva y un botón para confirmar asistencia.</desc>
+  <rect x="10" y="10" width="300" height="540" rx="38" fill="#3a2a2f"/>
+  <rect x="22" y="26" width="276" height="508" rx="28" fill="#fbf1f2"/>
+  <rect x="120" y="14" width="80" height="8" rx="4" fill="#5a4046"/>
+  <rect x="22" y="26" width="276" height="170" rx="28" fill="#e8c4cb"/>
+  <rect x="22" y="150" width="276" height="46" fill="#e8c4cb"/>
+  <circle cx="160" cy="108" r="46" fill="#fbf1f2" opacity=".85"/>
+  <text x="160" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#8e2f52">XV</text>
+  <text x="160" y="236" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#8e2f52">Sofía</text>
+  <text x="160" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#3a2a2f">Te invita a celebrar sus quince años</text>
+  <line x1="90" y1="282" x2="230" y2="282" stroke="#b08a57" stroke-width="1.5"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#3a2a2f">
+    <rect x="42" y="300" width="50" height="58" rx="10" fill="#fff" stroke="#e8c4cb"/><text x="67" y="330" font-size="20" font-weight="700" fill="#8e2f52">24</text><text x="67" y="347" font-size="9">días</text>
+    <rect x="100" y="300" width="50" height="58" rx="10" fill="#fff" stroke="#e8c4cb"/><text x="125" y="330" font-size="20" font-weight="700" fill="#8e2f52">06</text><text x="125" y="347" font-size="9">horas</text>
+    <rect x="170" y="300" width="50" height="58" rx="10" fill="#fff" stroke="#e8c4cb"/><text x="195" y="330" font-size="20" font-weight="700" fill="#8e2f52">41</text><text x="195" y="347" font-size="9">min</text>
+    <rect x="228" y="300" width="50" height="58" rx="10" fill="#fff" stroke="#e8c4cb"/><text x="253" y="330" font-size="20" font-weight="700" fill="#8e2f52">12</text><text x="253" y="347" font-size="9">seg</text>
+  </g>
+  <text x="160" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2a2f">Sábado 12 de diciembre · 7:00 p. m.</text>
+  <text x="160" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2a2f">Salón Jardín Real, Monterrey</text>
+  <rect x="62" y="446" width="196" height="40" rx="20" fill="#8e2f52"/>
+  <text x="160" y="471" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Confirmar asistencia</text>
+</svg>
