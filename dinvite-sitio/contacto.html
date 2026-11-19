@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | d’Invité</title>
+  <meta name="description" content="Solicita tu invitación web: cuéntanos sobre tu evento y elige el paquete de d’Invité que más te convenga.">
+  <meta name="theme-color" content="#8e2f52">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="d’Invité, ir al inicio">d’Invité</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section aria-labelledby="titulo-contacto">
+      <div class="container">
+        <h1 id="titulo-contacto">Contacto</h1>
+        <p class="section-intro">Cuéntanos sobre tu evento y te responderemos para preparar tu invitación. Los campos marcados con asterisco (*) son obligatorios.</p>
+
+        <div class="contact-layout">
+          <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="correo">Correo electrónico *</label>
+              <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono o WhatsApp <span class="hint">(opcional)</span></label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" aria-describedby="ayuda-tel">
+              <span id="ayuda-tel" class="hint">Solo números, por ejemplo 8112345678.</span>
+            </div>
+            <div class="field">
+              <label for="evento">Tipo de evento *</label>
+              <select id="evento" name="evento" required>
+                <option value="">Selecciona una opción</option>
+                <option>XV años</option>
+                <option>Boda</option>
+                <option>Bautizo</option>
+                <option>Cumpleaños</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="paquete">Paquete de interés *</label>
+              <select id="paquete" name="paquete" required>
+                <option value="">Selecciona una opción</option>
+                <option>Básico ($299)</option>
+                <option>Completo ($549)</option>
+                <option>Premium ($899)</option>
+                <option>Aún no lo sé</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="fecha">Fecha del evento <span class="hint">(opcional)</span></label>
+              <input type="date" id="fecha" name="fecha">
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+          </form>
+
+          <aside class="aside-box" aria-labelledby="titulo-datos">
+            <h2 id="titulo-datos">Otras formas de contacto</h2>
+            <ul>
+              <li><strong>Correo:</strong><br><a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+              <li><strong>WhatsApp:</strong><br>+52 81 0000 0000</li>
+              <li><strong>Horario de atención:</strong><br>Lunes a sábado, de 10:00 a 19:00 h</li>
+              <li><strong>Ubicación:</strong><br>Monterrey, Nuevo León, México</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 d’Invité · Invitaciones web para momentos especiales.</p>
+      <p>Proyecto de Laboratorio de Programación Web · UANL FIME</p>
+    </div>
+  </footer>
+</body>
+</html>
